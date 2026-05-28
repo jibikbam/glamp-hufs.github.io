@@ -52,6 +52,7 @@ a:hover { text-decoration: underline; }
   background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-accent) 100%);
   color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 13px;
 }
+.brand-logo { height: 46px; width: auto; display: block; }
 .brand small { display: block; font-weight: 500; color: var(--c-muted); font-size: 12px; letter-spacing: 0; }
 .nav-menu { display: flex; gap: 6px; align-items: center; }
 .nav-menu a {
@@ -240,6 +241,12 @@ table.t tbody tr:nth-child(even) { background: #fafbfd; }
 .site-footer .copy {
   border-top: 1px solid rgba(255,255,255,0.1); padding-top: 14px; margin-top: 24px;
   font-size: 12.5px; color: rgba(255,255,255,0.55); text-align: center;
+}
+
+/* ========= Figures ========= */
+.fig {
+  display: block; max-width: 100%; height: auto; margin: 20px auto;
+  border-radius: var(--radius); border: 1px solid var(--c-border); box-shadow: var(--shadow-sm);
 }
 
 /* ========= Misc ========= */
