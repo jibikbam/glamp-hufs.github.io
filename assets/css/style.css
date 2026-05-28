@@ -248,6 +248,8 @@ table.t tbody tr:nth-child(even) { background: #fafbfd; }
   display: block; max-width: 100%; height: auto; margin: 20px auto;
   border-radius: var(--radius); border: 1px solid var(--c-border); box-shadow: var(--shadow-sm);
 }
+.fig.fig-70 { max-width: 70%; }
+.fig.fig-130 { width: 784px; }
 
 /* ========= Misc ========= */
 .muted { color: var(--c-muted); }
